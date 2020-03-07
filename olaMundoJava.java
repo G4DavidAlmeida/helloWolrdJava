@@ -15,7 +15,16 @@ public class olaMundoJava
         double valor2 = 30.20;
         double soma = valor1 + valor2;
         
-        System.out.println("A soma é " + soma);
-        System.out.println(System.out);
+        if (soma > 100) {
+            System.out.println("Soma maior que 100");
+        } else {
+            System.out.println("Soma menor que 100");
+        }
+        
+        System.out.println("A soma de " + valor1 + " mais " + valor2 + " é: " + soma);
+        
+        for (int  i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
     }
 }
