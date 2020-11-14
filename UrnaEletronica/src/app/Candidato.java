@@ -1,6 +1,6 @@
 package app;
 
-public class Candidato extends Eleitor {
+public class Candidato extends Eleitor implements IEleitor {
 	private int cargo = -1;
 	private int votosRecebidos = 0;
 	private int codigo = -1;

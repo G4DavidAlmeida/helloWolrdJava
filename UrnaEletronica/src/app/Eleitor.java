@@ -1,6 +1,6 @@
 package app;
 
-public class Eleitor {
+public class Eleitor implements IEleitor {
 	private String nome = "";
 	private String rg = null;
 	
